@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
       ),
       body: ListView.builder(
-        itemCount: 1,
+        itemCount: 2,
         itemBuilder: (_, i) => ListTile(
           leading: Icon(Icons.pages),
           title: Text('Challenge ${i + 1}'),

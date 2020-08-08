@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenges/challenges/challenge_1.dart';
+import 'package:flutter_ui_challenges/challenges/challenge_2.dart';
 
 import 'home.dart';
 
@@ -19,8 +20,10 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': HomePage.route,
         '/1': Challenge1.route,
+        '/2': Challenge2.route,
       },
       initialRoute: '/',
+      debugShowCheckedModeBanner: false,
     );
   }
 }
